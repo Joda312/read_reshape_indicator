@@ -10,6 +10,8 @@ save "data/derived/`longname'.dta", replace
 
 /*
 do code/read_reshape_gdp.do gdp gdp_per_capita "GDP per capita"
+
+do code/read_reshape_indicator.do pop population "Population"
 */
 
 
